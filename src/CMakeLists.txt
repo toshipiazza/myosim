@@ -1,5 +1,5 @@
 set(SRCS hub.cpp event_player_hub.cpp event_recorder.cpp)
-set(HEAD hub.h 	 event_player_hub.h   event_recorder.h)
+set(HEAD hub.h 	 event_player_hub.h   event_recorder.h   event_types.h)
 # Compile with boost serialization library if -DWithSerialization=On
 # is specified on the command line.
 if(WithSerialization)
